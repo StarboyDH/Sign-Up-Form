@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-radial-gradient(rgb(113, 102, 185), rgb(124, 124, 182));
+}
+
+.form {
+    background-color: rgba(203, 216, 216, 0.85);
+    padding: 50px;
+    width: 20vw;
+    border-radius: 10px;
+    box-shadow: -5px -5px 3px -2px darkslateblue;
+}
+
+.form-title {
+    color: darkslategrey;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+label {
+    color: darkolivegreen;
+    font-size: 11.5px;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.field {
+    background-color: inherit;
+    border-top: 0px solid;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    border-bottom: 1px solid darkolivegreen;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+
+}
+
+::placeholder {
+    color: grey;
+    font-size: 8px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button {
+    width: 80px;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: rgba(248, 248, 255, 0.80);
+    border: 0px solid ghostwhite;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.button:hover {
+    color: darkred;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px -3px darkred, -2px -2px 6px -3px darkred;
+    transition: 0.2s ease-in-out;
+}
